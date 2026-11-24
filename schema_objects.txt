@@ -1,0 +1,27 @@
+﻿            ╤яшёюъ т│фэю°хэ№
+  ╤їхьр   |      ═рчтр       |  ╥ш  |    ┬ырёэ    
+--------+---------------+-----+----------
+ public | members       | ЄрсышЎ  | postgres
+ public | subscriptions | ЄрсышЎ  | postgres
+ public | trainers      | ЄрсышЎ  | postgres
+ public | workouts      | ЄрсышЎ  | postgres
+(4 Ё фъш)
+
+               ╤яшёюъ т│фэю°хэ№
+  ╤їхьр   |       ═рчтр        |   ╥ш    |    ┬ырёэ    
+--------+-----------------+--------+----------
+ public | member_summary  | яюфрээ\xFF | postgres
+ public | trainer_summary | яюфрээ\xFF | postgres
+(2 Ё фъш)
+
+                          ╤яшёюъ т│фэю°хэ№
+  ╤їхьр   |           ═рчтр            |   ╥ш   |    ┬ырёэ    |       ╥рсыш       
+--------+-------------------------+-------+----------+---------------
+ public | idx_workouts_member_id  | \xB3эфх | postgres | workouts
+ public | idx_workouts_trainer_id | \xB3эфх | postgres | workouts
+ public | members_pkey            | \xB3эфх | postgres | members
+ public | subscriptions_pkey      | \xB3эфх | postgres | subscriptions
+ public | trainers_pkey           | \xB3эфх | postgres | trainers
+ public | workouts_pkey           | \xB3эфх | postgres | workouts
+(6 Ё фъ│т)
+
