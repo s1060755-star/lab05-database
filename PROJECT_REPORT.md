@@ -298,26 +298,82 @@ pg_restore -U postgres -d test_restore "C:\Users\Олександра\Desktop\Sp
 
 ## 4. Скріншоти та опис виконання роботи
 
-1. **Знімок екрана 2026-11-27 101706.png** (знято 2026-11-27 о 10:17:06)
-   ![Знімок екрана 2026-11-27 101706.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-27%20101706.png)
-   *Опис:* Скріншот етапу виконання лабораторної роботи №5 у PostgreSQL 16 / pgAdmin 4 / psql / GitHub — файл `Знімок екрана 2026-11-27 101706.png`.
+1. **Знімок екрана 2026-11-24 163353.png**
+   ![Знімок екрана 2026-11-24 163353.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20163353.png)
+   *Опис:* Підключення до сервера баз даних PostgreSQL 16 у pgAdmin 4 (Object Explorer), перегляд панелі моніторингу Dashboard (Activity: Server sessions, Transactions per second, Tuples in, Tuples out, Block I/O).
 
-2. **Знімок екрана 2026-11-27 101754.png** (знято 2026-11-27 о 10:17:54)
-   ![Знімок екрана 2026-11-27 101754.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-27%20101754.png)
-   *Опис:* Скріншот етапу виконання лабораторної роботи №5 у PostgreSQL 16 / pgAdmin 4 / psql / GitHub — файл `Знімок екрана 2026-11-27 101754.png`.
+2. **Знімок екрана 2026-11-24 163423.png**
+   ![Знімок екрана 2026-11-24 163423.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20163423.png)
+   *Опис:* Розгортання вузла Databases (1) та бази даних postgres у pgAdmin 4 із відображенням системних розділів об'єктів (Casts, Catalogs, Event Triggers, Extensions, Foreign Data Wrappers, Languages, Publications, Schemas, Subscriptions) і метрик бази.
 
-3. **Знімок екрана 2026-11-27 101858.png** (знято 2026-11-27 о 10:18:58)
-   ![Знімок екрана 2026-11-27 101858.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-27%20101858.png)
-   *Опис:* Скріншот етапу виконання лабораторної роботи №5 у PostgreSQL 16 / pgAdmin 4 / psql / GitHub — файл `Знімок екрана 2026-11-27 101858.png`.
+3. **Знімок екрана 2026-11-24 163616.png**
+   ![Знімок екрана 2026-11-24 163616.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20163616.png)
+   *Опис:* Перегляд схеми public у базі даних postgres у pgAdmin 4 (Tables, Views, Functions, Procedures, Sequences, Trigger Functions) разом із фіксацією активності сесій та транзакцій на вкладці Dashboard.
 
-4. **Знімок екрана 2026-11-27 102106.png** (знято 2026-11-27 о 10:21:06)
-   ![Знімок екрана 2026-11-27 102106.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-27%20102106.png)
-   *Опис:* Скріншот етапу виконання лабораторної роботи №5 у PostgreSQL 16 / pgAdmin 4 / psql / GitHub — файл `Знімок екрана 2026-11-27 102106.png`.
+4. **Знімок екрана 2026-11-24 163753.png**
+   ![Знімок екрана 2026-11-24 163753.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20163753.png)
+   *Опис:* Моніторинг роботи схеми public та бази даних postgres у pgAdmin 4 (Database sessions, Transactions per second, Tuples out, Block I/O) під час виконання запитів.
 
-5. **Знімок екрана 2026-11-27 102153.png** (знято 2026-11-27 о 10:21:53)
-   ![Знімок екрана 2026-11-27 102153.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-27%20102153.png)
-   *Опис:* Скріншот етапу виконання лабораторної роботи №5 у PostgreSQL 16 / pgAdmin 4 / psql / GitHub — файл `Знімок екрана 2026-11-27 102153.png`.
+5. **Знімок екрана 2026-11-24 164537.png**
+   ![Знімок екрана 2026-11-24 164537.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20164537.png)
+   *Опис:* Відкрите вікно Query Tool (postgres/postgres@PostgreSQL 16) із підготовленим SQL-запитом створення тестової таблиці CREATE TABLE test_check (id SERIAL PRIMARY KEY, name TEXT NOT NULL);
 
-6. **Знімок екрана 2026-11-27 102242.png** (знято 2026-11-27 о 10:22:42)
-   ![Знімок екрана 2026-11-27 102242.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-27%20102242.png)
-   *Опис:* Скріншот етапу виконання лабораторної роботи №5 у PostgreSQL 16 / pgAdmin 4 / psql / GitHub — файл `Знімок екрана 2026-11-27 102242.png`.
+6. **Знімок екрана 2026-11-24 164622.png**
+   ![Знімок екрана 2026-11-24 164622.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20164622.png)
+   *Опис:* Успішне виконання запиту створення тестової таблиці test_check у pgAdmin 4 (Query returned successfully in 436 msec., статус CREATE TABLE на вкладці Messages).
+
+7. **Знімок екрана 2026-11-24 164706.png**
+   ![Знімок екрана 2026-11-24 164706.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20164706.png)
+   *Опис:* Виконання запиту видалення тестової таблиці DROP TABLE IF EXISTS test_check; (Query returned successfully in 91 msec., статус DROP TABLE) для очищення бази даних після перевірки.
+
+8. **Знімок екрана 2026-11-24 164935.png**
+   ![Знімок екрана 2026-11-24 164935.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20164935.png)
+   *Опис:* Створення таблиці workouts із зовнішніми ключами на trainers та members і вставка тестових даних INSERT INTO members, trainers, workouts (INSERT 0 2, Query returned successfully in 114 msec.).
+
+9. **Знімок екрана 2026-11-24 165054.png**
+   ![Знімок екрана 2026-11-24 165054.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20165054.png)
+   *Опис:* Перевірка вмісту таблиці workouts запитом SELECT * FROM workouts; у Data Output (Ранковий стретчинг, Базове силове тренуван..., 2026-11-25 09:00:00 та 2026-11-25 18:30:00).
+
+10. **Знімок екрана 2026-11-24 165148.png**
+   ![Знімок екрана 2026-11-24 165148.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20165148.png)
+   *Опис:* Виконання об'єднувального SQL-запиту JOIN між таблицями workouts w, members m та trainers t (w.member_id = m.member_id, w.trainer_id = t.trainer_id) із виведенням учасників, тренерів та спеціалізацій.
+
+11. **Знімок екрана 2026-11-24 170454.png**
+   ![Знімок екрана 2026-11-24 170454.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20170454.png)
+   *Опис:* Підготовлений у Query Tool транзакційний SQL-скрипт (BEGIN; UPDATE subscriptions SET price = 1750.00 WHERE member_id = 1; SELECT ...; ROLLBACK; SELECT ...;) для перевірки відкату змін у таблиці subscriptions та поточні рядки у Data Output (1500.00 і 2200.00).
+
+12. **Знімок екрана 2026-11-24 170732.png**
+   ![Знімок екрана 2026-11-24 170732.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20170732.png)
+   *Опис:* Результат виконання транзакційного скрипта BEGIN ... UPDATE subscriptions ... ROLLBACK у pgAdmin 4 (Successfully run. Total query runtime: 183 msec. 2 rows affected.) зі збереженням початкових цін абонементів.
+
+13. **Знімок екрана 2026-11-24 170831.png**
+   ![Знімок екрана 2026-11-24 170831.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20170831.png)
+   *Опис:* Виконання запиту з групуванням GROUP BY та умовою HAVING COUNT(*) >= 1 AND workouts_count >= 1 по представленню public.member_summary із виведенням учасників, планів, вартості та кількості тренувань.
+
+14. **Знімок екрана 2026-11-24 170923.png**
+   ![Знімок екрана 2026-11-24 170923.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20170923.png)
+   *Опис:* Створення індексів idx_workouts_member_id та idx_workouts_trainer_id (CREATE INDEX IF NOT EXISTS) і виконання LEFT JOIN між members та subscriptions із CASE-виразом статусу абонемента (subscription_status = 'Активний').
+
+15. **Знімок екрана 2026-11-24 171105.png**
+   ![Знімок екрана 2026-11-24 171105.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20171105.png)
+   *Опис:* Створення або оновлення представлення CREATE OR REPLACE VIEW public.trainer_summary з агрегатами COUNT(w.workout_id), COUNT(DISTINCT w.member_id), MIN(w.workout_date), MAX(w.workout_date) та LEFT JOIN із workouts.
+
+16. **Знімок екрана 2026-11-24 171145.png**
+   ![Знімок екрана 2026-11-24 171145.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20171145.png)
+   *Опис:* Перегляд визначення представлення public.trainer_summary і результатів вибірки в Data Output у pgAdmin 4 (Олена Коваль, Максим Шевчен..., true, 1500.00, 2200.00, workouts_count = 1).
+
+17. **Знімок екрана 2026-11-24 171156.png**
+   ![Знімок екрана 2026-11-24 171156.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20171156.png)
+   *Опис:* Підтвердження успішного виконання SQL-скрипта зі створення public.trainer_summary та вибірок по представленнях у pgAdmin 4 (Successfully run. Total query runtime: 308 msec. 2 rows affected.).
+
+18. **Знімок екрана 2026-11-24 171331.png**
+   ![Знімок екрана 2026-11-24 171331.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20171331.png)
+   *Опис:* Запити до системних каталогів information_schema.tables та pg_indexes (WHERE schemaname = 'public' AND tablename = 'workouts') із виведенням індексів таблиці workouts у Data Output.
+
+19. **Знімок екрана 2026-11-24 171447.png**
+   ![Знімок екрана 2026-11-24 171447.png](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20171447.png)
+   *Опис:* Зведений аналітичний запит зі скалярними підзапитами для підрахунку кількості учасників (2), тренерів (2), тренувань (2), абонементів (2) і доходу за активними абонементами (active_revenue = 3700.00).
+
+20. **Знімок екрана 2026-11-24 171551.jpg**
+   ![Знімок екрана 2026-11-24 171551.jpg](final_shots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-24%20171551.jpg)
+   *Опис:* Загальний вигляд вікна pgAdmin 4 після виконання зведеного аналітичного запиту (Total rows: 1, Query complete 00:00:00.148, active_revenue = 3700.00) та розгорнутих таблиць у схемі public.
