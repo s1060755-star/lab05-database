@@ -1,27 +1,28 @@
-﻿            ╤яшёюъ т│фэю°хэ№
-  ╤їхьр   |      ═рчтр       |  ╥ш  |    ┬ырёэ    
---------+---------------+-----+----------
- public | members       | ЄрсышЎ  | postgres
- public | subscriptions | ЄрсышЎ  | postgres
- public | trainers      | ЄрсышЎ  | postgres
- public | workouts      | ЄрсышЎ  | postgres
-(4 Ё фъш)
+﻿ Список об'єктів схеми public
 
-               ╤яшёюъ т│фэю°хэ№
-  ╤їхьр   |       ═рчтр        |   ╥ш    |    ┬ырёэ    
---------+-----------------+--------+----------
- public | member_summary  | яюфрээ\xFF | postgres
- public | trainer_summary | яюфрээ\xFF | postgres
-(2 Ё фъш)
+Таблиці:
+ Схема  | Назва         | Тип     | Власник
+--------+---------------+---------+----------
+ public | members       | таблиця | postgres
+ public | subscriptions | таблиця | postgres
+ public | trainers      | таблиця | postgres
+ public | workouts      | таблиця | postgres
+(4 рядки)
 
-                          ╤яшёюъ т│фэю°хэ№
-  ╤їхьр   |           ═рчтр            |   ╥ш   |    ┬ырёэ    |       ╥рсыш       
---------+-------------------------+-------+----------+---------------
- public | idx_workouts_member_id  | \xB3эфх | postgres | workouts
- public | idx_workouts_trainer_id | \xB3эфх | postgres | workouts
- public | members_pkey            | \xB3эфх | postgres | members
- public | subscriptions_pkey      | \xB3эфх | postgres | subscriptions
- public | trainers_pkey           | \xB3эфх | postgres | trainers
- public | workouts_pkey           | \xB3эфх | postgres | workouts
-(6 Ё фъ│т)
+Представлення:
+ Схема  | Назва           | Тип          | Власник
+--------+-----------------+--------------+----------
+ public | member_summary  | представлення | postgres
+ public | trainer_summary | представлення | postgres
+(2 рядки)
 
+Індекси:
+ Схема  | Назва                     | Тип    | Власник  | Таблиця
+--------+---------------------------+--------+----------+--------------
+ public | idx_workouts_member_id    | індекс | postgres | workouts
+ public | idx_workouts_trainer_id   | індекс | postgres | workouts
+ public | members_pkey              | індекс | postgres | members
+ public | subscriptions_pkey        | індекс | postgres | subscriptions
+ public | trainers_pkey             | індекс | postgres | trainers
+ public | workouts_pkey             | індекс | postgres | workouts
+(6 рядків)
